@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-image: url("./../../../../images/Dashboard-New.png");
+    background-size: 100% 100%;
+}
+
+.login-box2 {
+    width: 600px;
+    width: 18rem;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-bottom: auto;
+    /* position: relative; */
+}
+
+@media (max-width: 768px) {
+    .login-box2 {
+        margin-top: 13rem;
+        width: none;
+        margin-top:70%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        
+    }
+
+    body{
+        background-image: url("./../../../../images/768-wipro-bg.jpg");
+        background-size: 100% 100%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .login-box2 {
+        margin-top: 13rem;
+        width: none;
+        margin-top:80%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        
+    }
+
+    body{
+        background-image: url("./../../../../images/480-wipro-bg.jpg");
+        background-size: 100% 100%;
+    }
+
+}
+
+
+.welcome {
+    text-align: left;
+    /* font-family: HolidayFree; */
+}
+
+.icon-color {
+    color: orange
+}
+
+.color-white {
+    background-color: white;
+}
+
+.is-invalid {
+    border-color: orange;
+}
+
+.btn-orange {
+    color: #ffffff;
+    background-color: orange;
+    border-color: orange;
+    box-shadow: none;
+}
+
+@font-face {
+    font-family: 'HolidayFree';
+    src: url("./../../../../assets_admin_lte/assets/fonts/hf.ttf");
+    /* src: url("{{asset('assets/fonts/hf.ttf')}}"); */
+}
+
+.fontWp {
+    font-family: 'HolidayFree';
+    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+}
+
+.Wiproite {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 12%;
+    /* margin-right: auto; */
+    color: whitesmoke;
+    font-size: 100%;
+    font-size-adjust: none;
+    text-size-adjust: none;
+    width: auto;
+    height: auto;
+    align-items: left;
+}
+
+
+.fadeIN {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.smallSize {
+    font-size: 11px;
+}
+
+.login-page2 {
+    -ms-flex-align: center;
+    align-items: center;
+    /* background-image: url(" ./../../../../../images/wipro-bg.jpg");
+    background-size: 100% 100%; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -ms-flex-pack: center;
+    justify-content: center;
+}

@@ -1,0 +1,72 @@
+.login-logo{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: .9rem;
+    text-align: center;
+}
+.login-logo{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: .9rem;
+    text-align: center;
+}
+
+.user-panel img {
+    height: auto;
+    width: 59px;
+}
+
+.position {
+    padding: 5px 0 0 19px;
+}
+
+.login-card-body, .register-card-body {
+    border-radius: 8px;
+}
+
+.login-page {
+    background: white;
+}
+
+.login-logo h4, .register-logo h4 {
+    color: linen;
+}
+
+#pills-normal-tab,#pills-late-tab,#pills-additional-tab,#pills-nonarea-tab,#pills-area-tab {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+
+#geeks a:hover{ 
+    color: lime; 
+    background: gray; 
+} 
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #d1d6db;
+    background-color: #356582;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+
+.dropzone {
+    min-height: 150px;
+    border: 2px solid #ced4da;
+    background: white;
+    padding: 20px 20px;
+    border-radius: 7px;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition-property: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform : scale(1.5);
+}
+
